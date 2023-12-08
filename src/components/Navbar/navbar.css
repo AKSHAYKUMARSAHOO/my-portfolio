@@ -1,0 +1,41 @@
+.nav{
+    height: 5rem;
+    width: 100vw;
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+}
+.logo
+{
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+}
+.desListItem{
+    margin: 1rem;
+    cursor: pointer;
+}
+.desListItem:hover{
+   color:yellow;
+   padding-bottom: 0.5rem;
+   border-bottom: 2px solid skyblue;
+}
+.desbtn{
+
+background-color: rgb(255, 255, 255);
+outline: 0;
+border: 0;
+width: 150px;
+height: 29px;
+border-radius: 20px;
+}
+i{
+  margin: 5px;
+}

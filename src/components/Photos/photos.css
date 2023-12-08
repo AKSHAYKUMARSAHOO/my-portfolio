@@ -1,0 +1,37 @@
+#work{
+    margin: 0 auto;
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+.tittle{
+    margin: 1rem 0;
+    font-style: 3rem;
+}
+.workd{
+    font-weight: 300;
+    font-size: 1rem;
+}
+.workimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 45rem;
+}
+.workimgs{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem}
+@media  screen and (max-width:585px) {
+    .workimg{
+   height: 50vw;
+    }
+}
